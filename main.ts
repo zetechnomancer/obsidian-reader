@@ -57,8 +57,9 @@ export default class SpeedReadingPlugin extends Plugin {
 
 		// For every word in the note, select it and wait for a bit
 		const words = editor.getValue().split(" ");
+
 		let i = 0;
-		let ch = cursor.ch;
+
 		this.interval = setInterval(() => {
 			if (i >= words.length) {
 				clearInterval(this.interval);
@@ -69,15 +70,14 @@ export default class SpeedReadingPlugin extends Plugin {
 			editor.setSelection(
 				{
 					line: cursor.line,
-					ch: ch,
+					ch: cursor.ch,
 				},
 				{
 					line: cursor.line,
-					ch: ch + word.length,
+					ch: cursor.ch + word.length,
 				}
 			);
-
-			ch += word.length + 1; // Add 1 for the space between words
+			cursor.ch += word.length + 1; // Add 1 for the space between words
 			i++;
 
 			// Wait for the pause duration before selecting the next word
