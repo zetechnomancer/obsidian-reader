@@ -39,4 +39,4 @@ To contribute to the Obsidian Speed Reading Plugin, follow these steps:
 
 ## License
 
-The Obsidian Speed Reading Plugin is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+The Obsidian Speed Reading Plugin is licensed under the MIT License. See [LICENSE](LICENSE.md) for more information.
