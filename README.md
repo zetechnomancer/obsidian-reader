@@ -36,3 +36,7 @@ To contribute to the Obsidian Speed Reading Plugin, follow these steps:
 3. Make your changes and commit them: `git commit -m 'Add some feature'`.
 4. Push to the branch: `git push origin my-feature-branch`.
 5. Submit a pull request.
+
+## License
+
+The Obsidian Speed Reading Plugin is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
