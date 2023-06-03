@@ -17,7 +17,7 @@ To use the Obsidian Speed Reading Plugin, follow these steps:
 
 1. Open a note in Obsidian.
 2. Select the text you want to speed read.
-3. Press `Ctrl+Shift+R` to start speed reading.
+3. Uses the speed read command to start speed reading.
 4. Adjust the speed and pause duration using the settings.
 
 ## Settings
