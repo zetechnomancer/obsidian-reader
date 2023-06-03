@@ -1,11 +1,11 @@
 {
-	"id": "obsidian-speedreader",
-	"name": "Obsidian Speed Reader",
+	"id": "speedreader",
+	"name": "Speed Reader",
 	"version": "0.1.0",
 	"minAppVersion": "0.15.0",
 	"description": "This is speed reading plugin for Obsidian",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"author": "The technomander",
+	"authorUrl": "https://github.com/zetechnomancer",
+	"fundingUrl": "https://www.buymeacoffee.com/zetechnomancer",
 	"isDesktopOnly": false
 }
